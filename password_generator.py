@@ -14,8 +14,12 @@ print("your password: " + password)
 
 
 question = input("Generate again? (y/n)")
+try_again = True
+if(question == "n"):
+    try_again = False
+    
 
-while(True):
+while(try_again):
     new_password = "".join(random.sample(Use_for, password_length))
     print("your password: " + new_password)
     question = input("generate again? (y/n)")
