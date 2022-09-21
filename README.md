@@ -7,7 +7,7 @@ This program will generate random password with 20 characters length. I recommen
 
 command:
 
-python3 main.py
+python3 password_generator.py
 
 
 Thanks.
