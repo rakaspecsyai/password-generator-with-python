@@ -13,23 +13,21 @@ password = "".join(random.sample(Use_for, password_length))
 print("your password: " + password)
 
 
-question = input("Generate again? (y/n)")
+question = input("Generate again? (y/n): ")
 try_again = True
 if(question == "n"):
     try_again = False
-    
 
 while(try_again):
     new_password = "".join(random.sample(Use_for, password_length))
     print("your password: " + new_password)
-    question = input("generate again? (y/n)")
+    question = input("generate again? (y/n): ")
     if(question == "n"):
         break
     elif(question != "n" and question != "y"):
         print("invalid answer")
-        question = input("generate again? (y/n)")
+        question = input("generate again? (y/n): ")
         continue
-
 
 
 
