@@ -7,9 +7,9 @@ Other requirements:
 -python 3+
 
 
-command:
-pip install requirements.txt
-python3 main.py
+command:\n
+pip install requirements.txt\n
+python3 main.py\n
 
 Make sure to put those 2 files (requirements.txt and main.py) in the same folder to make it easier to run.
 
