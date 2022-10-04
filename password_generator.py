@@ -7,9 +7,10 @@ max_len = 100
 min_len = 1
 #--------------------------------------------------------------------------------
 #questions
-desired_len_question = "how long your password should be?? [empty enter for default len]"
-desired_character_set_question = "Use the ASCII character set? [if no; enter some your self below]"
-should_continue_question = "do you want any other password to be genrated? (n,y)"
+desired_len_question = "how long your password should be?? [empty enter for default len]: "
+desired_character_set_question = "Use the ASCII character set? [press Enter. " \
+                                 "if no; enter some your self below]: "
+should_continue_question = "do you want any other password to be genrated? (n,y): "
 user_input_was_invalid = "InvalidUserInput"
 sepration_line = "=========================="
 
@@ -85,3 +86,4 @@ if __name__ == "__main__":
 
         if should_continue == False:
             break
+
